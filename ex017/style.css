@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+
+main{
+    background-color: white;
+    width: 600px;
+    border-radius: 10px;
+    padding: 10px;
+    margin:auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* medidas absolutas:
+cm, mm ,in ,px ,pt ,pc
+medidas relativas: 
+em,ex,rem,vw,vh,%
+recomendação oficial use px e use em
+*/
+body{
+    height: 100%;
+    background-image: linear-gradient(to right,#2D3E40,#387373,#93BFB7,#97A6A0);
+    font: italic bolder 18px,sans-serif;
+}
+
+p{
+    text-align: justify;
+
+}
